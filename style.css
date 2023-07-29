@@ -1,0 +1,156 @@
+/* 
+
+    styles
+    author: wilson Kinyua
+
+*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282828;
+    background-color: #fff;
+  }
+  
+  body,
+  html {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  a {
+    color: #68c3a3;
+  }
+  a,
+  a > * {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:focus,
+  a:hover {
+    outline: none;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .homepage {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBxHkS_bGwQtp9EGOdwkz5y8L1edpCmMy2XA&usqp=CAU")
+      no-repeat center center;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+    background-color: #222;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+    height: 668px;
+  }
+  
+  .home {
+    text-align: center;
+  }
+  
+  #title {
+    padding-top: 250px;
+    font-size: 6rem;
+    color: rgb(62, 212, 223);
+    font-weight: 900;
+    font-style: oblique;
+  }
+  
+  .p_home {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .about {
+    margin: 30px;
+  }
+  
+  .ld {
+    width: 50%;
+    float: left;
+  }
+  .rd {
+    width: 50%;
+    float: right;
+  }
+  
+  .img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+  
+  .title_who {
+    font-weight: 800;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .why_heading {
+    margin-top: 400px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    color: red;
+    text-decoration: underline;
+  }
+  .why {
+    margin: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  #members {
+    margin: 30px;
+    text-align: center;
+    color: red;
+  }
+  
+  .container .card {
+    /* margin: 5px; */
+    width: 25%;
+  }
+  
+  .container .card .card-body {
+    padding: 10px;
+  }
+  .card-body p,
+  h3 {
+    text-align: center;
+  }
+  
+  .card img.card-img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  span {
+    font-size: 15px;
+    font-style: italic;
+  }
